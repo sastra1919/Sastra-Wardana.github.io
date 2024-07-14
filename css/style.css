@@ -1,0 +1,129 @@
+
+
+html {
+    position: relative;
+    
+    
+}
+
+body {
+    margin-bottom: 120px;
+    margin-top: 35px;
+}
+
+
+.jumbotron img {
+    width: 300px;
+    border: 10px solid #6b0394;
+    filter: drop-shadow(20px 20px 20px rgb(255, 1, 1));
+
+
+}
+
+
+ hr {
+    width: 250px;
+    border-top: 4px solid #030202;
+}
+
+section{
+    min-height: 600px;
+}
+
+.Portfolio {
+    background-image: url(../bc.jpg);
+    background-size: cover;
+    color: aliceblue;
+}
+.portfolio .thumbnail{
+    opacity: 0;
+}
+.portfolio .thumbnail.muncul{
+    opacity: 1;
+}
+.jumbotron{
+    height: 600px;
+    
+    background-image: url(../jum.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+
+color: rgb(250, 253, 255);
+
+}
+.about{
+    background-image: url(../About.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: 100px;
+    height: 350px;
+    
+}
+
+
+.about p{
+    font-size: 20px;
+
+}
+.about h2{
+font-size: 40px;
+font-weight: bold;
+
+
+}
+
+.Portfolio h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.contact h2{
+font-size: 40px;
+font-weight: bold;
+}
+.contact label{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.contact input{
+    font-size: 17px;
+    
+}
+
+.contact {
+    min-height: 800px;
+    background-image: url(../About.jpg);
+    background-size: contain;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    background-color: #000000;
+}
+.contact textarea{
+    font-size: 17px;
+}
+option {
+    font-size: 17px;
+}
+.contact button{
+font-size: 20px;
+}
+footer p{
+    color: aliceblue;
+    font-size: 18px;
+    padding-top: 20px;
+}
+footer a {
+    font-size: 20px;
+
+}
+
+nav{
+    font-size: 20px;
+}
+
